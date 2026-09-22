@@ -1,0 +1,29 @@
+{
+    "packages": [
+       {
+        "source": "https://github.com/jamditis/claude-skills-journalism@v2.7.3",
+        "skills": ["document-design", "pdf-design"]
+       },
+       {
+        "source": "https://github.com/Nanako0129/sepia@v0.12.0",
+        "skills": ["sepia", "sepia-review", "sepia-write", "sepia-refactor", "sepia-recreate"]
+       },
+       {
+        "source": "https://github.com/JimLiu/baoyu-skills@v2.5.2",
+        "skills": ["baoyu-url-to-markdown", "baoyu-youtube-transcript", "baoyu-format-markdown"]
+       },
+       {
+        "source": "https://github.com/nicobailon/visual-explainer@v0.11.0",
+        "skills": ["visual-explainer"]
+       },
+       {
+        "source": "https://github.com/cathrynlavery/diagram-design",
+        "skills": ["diagram-design"]
+       },
+       {
+        "source": "https://github.com/Graphify-Labs/graphify@v0.9.57",
+        "skills": ["graphify"]
+       }
+    ],
+    "enableSkillCommands": true
+}

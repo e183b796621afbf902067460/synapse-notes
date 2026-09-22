@@ -133,3 +133,11 @@ dmypy.json
 *.csv
 *.html
 draft.ipynb
+
+# Agent's context
+.kilo/
+.claude/
+.gortex/
+.pi/git/
+.pi/npm/*
+graphify-*/

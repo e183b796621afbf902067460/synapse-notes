@@ -1,0 +1,30 @@
+[project]
+name = "synapse-pi"
+dynamic = ["version", "dependencies"]
+description = "..."
+
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning>=0.7.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.uv-dynamic-versioning]
+vcs = "git"
+style = "pep440"
+bump = true
+fallback-version = "0.0.0"
+
+[tool.uv]
+package = false
+
+[tool.hatch.metadata.hooks.uv-dynamic-versioning]
+dependencies = [
+    "youtube-transcript-api>=1.0.3",
+    "markitdown>=0.1.7",
+    "graphifyy>=0.9.57",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
